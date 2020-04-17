@@ -1,2 +1,4 @@
+#https://www.hackerrank.com/challenges/py-if-else/problem
+
 number = int(input('Enter a number: '))
 print("weird") if number in [1, 6, 8, 10, 12, 14, 16, 18, 20] or number % 2 != 0 else print("not weird")
